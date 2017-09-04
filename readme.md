@@ -1,5 +1,5 @@
 # tachyons-as-props
-> Exposes Tachyons clases as properties
+> Exposes Tachyons class names as properties
 
 Can be used with solutions like `styled-jsx` (that allows you to write css-in-js as a string) to access all of tachyons as properties on a npm module.
 
