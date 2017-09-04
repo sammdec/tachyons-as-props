@@ -1,0 +1,18 @@
+{
+  "name": "tachyons-as-props",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node generate.js",
+    "prepublish": "node generate.js"
+  },
+  "author": "Sam Mason",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "postcss": "^6.0.10",
+    "postcss-selector-parser": "^2.2.3",
+    "tachyons": "^4.8.1"
+  }
+}
