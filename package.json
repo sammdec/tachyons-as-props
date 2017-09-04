@@ -1,15 +1,18 @@
 {
   "name": "tachyons-as-props",
   "version": "0.1.0",
-  "description": "",
+  "description": "Exposes Tachyons class names as properties",
   "main": "index.js",
+  "repository": "samjbmason/tachyons-as-props",
   "scripts": {
     "start": "node generate.js",
-    "prepublish": "node generate.js"
+    "prepare": "node generate.js"
   },
+  "files": ["index.js"],
   "author": "Sam Mason <sam.jbmason@gmail.com>",
   "license": "MIT",
-  "dependencies": {
+  "keywords": ["tachyons", "css-in-js", "css", "react"],
+  "devDependencies": {
     "lodash": "^4.17.4",
     "postcss": "^6.0.10",
     "tachyons": "^4.8.1"
